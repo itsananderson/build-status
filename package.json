@@ -1,0 +1,22 @@
+{
+  "name": "build-status",
+  "version": "0.0.0",
+  "description": "Dead simple Express site for reporting a build status",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/itsananderson/build-status.git"
+  },
+  "author": "Will Anderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsananderson/build-status/issues"
+  },
+  "homepage": "https://github.com/itsananderson/build-status",
+  "dependencies": {
+    "express": "^4.6.1"
+  }
+}
