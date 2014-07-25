@@ -7,6 +7,7 @@ app.get('/', function(req, res) {
     if (req.query.status) {
         buildStatus = req.query.status;
     }
+    res.header('Content-Length', buildStatus.length);
     res.end(buildStatus);
 });
 
